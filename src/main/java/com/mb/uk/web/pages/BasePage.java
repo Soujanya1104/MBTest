@@ -91,7 +91,7 @@ public class BasePage {
      */
     protected String getText(WebElement element, String elementName){
         String value=element.getText();
-        ExtentReport.getExtentTest().pass(elementName +" value is: "+value);
+        ExtentReport.getExtentTest().pass(elementName +" value is: "+value.trim());
         return value;
     }
 

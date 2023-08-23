@@ -29,11 +29,13 @@ public class BuildCarTest extends BaseTest{
         vehiclesPage.filterByFuelTypeDiesel();
         vehiclesPage.sortPriceLowestToHighest();
         utils.createFile();
-        log.info("Lowest Price: "+vehiclesPage.getVehiclePrice());
-        utils.writeFile("Lowest Price: "+vehiclesPage.getVehiclePrice());
+        String price=vehiclesPage.getVehiclePrice();
+        log.info("Lowest Price: "+price);
+        utils.writeFile("Lowest Price: "+price);
         vehiclesPage.sortPriceHighestToLowest();
-        utils.writeFile("Highest Price: "+vehiclesPage.getVehiclePrice());
-        log.info("Highest Price: "+vehiclesPage.getVehiclePrice());
+        price=vehiclesPage.getVehiclePrice();
+        utils.writeFile("Highest Price: "+price);
+        log.info("Highest Price: "+price);
         utils.closeFile();
     }
 }
