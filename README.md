@@ -5,7 +5,7 @@
 2. Maven 3.6 or higher: https://maven.apache.org/download.cgi
 3. IntelliJ (or any other IDE) : https://www.jetbrains.com/idea/download/
 
-****Steps to get started on** **
+**Steps to get started on**
 
 1. Clone the project from [https://github.com/vwdfive/oneshop-smt-tests.git](https://github.com/Soujanya1104/MBTest.git)
 2. Launch and open the project in IntelliJ editor
