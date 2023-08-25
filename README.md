@@ -7,7 +7,7 @@
 
 **Steps to get started on**
 
-1. Clone the project from [https://github.com/vwdfive/oneshop-smt-tests.git](https://github.com/Soujanya1104/MBTest.git)
+1. Clone the project
 2. Launch and open the project in IntelliJ editor
 
 **How to run the script:**
